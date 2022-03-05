@@ -30,18 +30,18 @@ const femaleAkanNames=[
     "Ama"
 ]
 
-button.addEventListener("click", function(e){
-    e.preventDefault()
-    const userInput=document.querySelector("#year").value
+// button.addEventListener("click", function(e){
+//     e.preventDefault()
+//     const userInput=document.querySelector("#year").value
     
-    let dateOfBirth= new Date(userInput);
-    let day= dateOfBirth.getDay();
+//     let dateOfBirth= new Date(userInput);
+//     let day= dateOfBirth.getDay();
     
 
-    console.log(`the day is:${day}`);
+//     console.log(`the day is:${day}`);
 
-    for (let choice of genders){
-        let gendersChoice= choice.value;
+//     for (let choice of genders){
+//         let gendersChoice= choice.value;
     
         if (gendersChoice==="male"){
             console.log(`Hey your Akan name is ${maleAkanNames[day]} and you were born on ${days[day]}`);
