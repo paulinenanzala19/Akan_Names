@@ -1,5 +1,6 @@
 const button=document.querySelector("#submit")
 const genders=document.querySelectorAll("#gender")
+const output=document.querySelector(".feedback")
 
 const days=[
     "Sunday",
@@ -44,12 +45,12 @@ button.addEventListener("click", function(e){
         let gendersChoice= choice.value;
     
         if (gendersChoice==="male"){
-            console.log(`Hey your Akan name is ${maleAkanNames[day]} and you were born on ${days[day]}`);
+            output.innerText=`Hey your Akan name is ${maleAkanNames[day]} and you were born on ${days[day]}`
     
         } else if (gendersChoice==="female"){
-            console.log(`Hey your Akan name is ${femaleAkanNames[day]} and you were born on ${days[day]}`);
+             output.innerHTML=`Hey your Akan name is ${femaleAkanNames[day]} and you were born on ${days[day]}`
         } else{
-            alert("please enter your credentials")
+            output.innerHTML="please enter your credentials"
         }
         
     }
