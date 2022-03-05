@@ -40,19 +40,19 @@ button.addEventListener("click", function(e){
 
     console.log(`the day is:${day}`);
 
-    for (let choice of genders){
-        let gendersChoice= choice.value;
+//     for (let choice of genders){
+//         let gendersChoice= choice.value;
     
-        if (gendersChoice==="male"){
-            console.log(`Hey your Akan name is ${maleAkanNames[day]} and you were born on ${days[day]}`);
+//         if (gendersChoice==="male"){
+//             console.log(`Hey your Akan name is ${maleAkanNames[day]} and you were born on ${days[day]}`);
     
-        } else if (gendersChoice==="female"){
-            console.log(`Hey your Akan name is ${femaleAkanNames[day]} and you were born on ${days[day]}`);
-        } else{
-            alert("please enter your credentials")
-        }
+//         } else if (gendersChoice==="female"){
+//             console.log(`Hey your Akan name is ${femaleAkanNames[day]} and you were born on ${days[day]}`);
+//         } else{
+//             alert("please enter your credentials")
+//         }
         
-    }
+//     }
 
-});
+// });
 
