@@ -24,7 +24,27 @@ height: 40%;
     border: 1px solid black;
     margin-top: -250px;
 }
+.assets{
+    display: block;
+    width: 200%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+#gender{
+    display: block;
+    width: 200%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#submit{
+    width: 50%;
+    background-color: #F6B400;
+    border-radius: 10px;
+    border: none;
+}
 #form{
     border: 1px solid black; 
     height: 300%;
+    background-color: ;
+    margin-left: 100px;
 }
