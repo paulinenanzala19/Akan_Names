@@ -21,4 +21,10 @@ height: 40%;
 }
 .image{
     float: left;
+    border: 1px solid black;
+    margin-top: -250px;
+}
+#form{
+    border: 1px solid black; 
+    height: 300%;
 }
