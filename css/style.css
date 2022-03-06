@@ -34,6 +34,14 @@ color: #F6B400;
     margin-bottom: 20px;
     padding: 5px;
 }
+.navbar ul li{
+    color: #F6B400;
+    list-style-type: none;
+    margin-left: 700px;
+    border: 1px solid #F6B400;
+    width: 10%;
+    text-align: center;
+}
 #gender{
     display: block;
     width: 70%;
