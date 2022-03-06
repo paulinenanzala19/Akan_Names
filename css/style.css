@@ -1,5 +1,11 @@
-.far{
+.page{
     display: flex;
     flex-direction: column;
     width: 40%;
+}
+#submit{
+    display: block;
+}
+#gender{
+    display: block;
 }
