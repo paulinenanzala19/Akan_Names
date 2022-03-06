@@ -6,7 +6,7 @@
 * clone the repository
 https://github.com/paulinenanzala19/Akan_Names.git
 * create a file index.html, style.css and script.js
-* live link
+
  
 ## Known Bugs
 * Not any that am aware as at the moment
