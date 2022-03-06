@@ -1,11 +1,13 @@
-.page{
+body{
+    /* background-color: black; */
+}
+img{
+    width: 30vw;
+    height: 60vh;
     display: flex;
-    flex-direction: column;
-    width: 40%;
+    flex-direction: row;
 }
-#submit{
-    display: block;
-}
-#gender{
-    display: block;
+
+.image{
+    float: right;
 }
