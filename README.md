@@ -10,12 +10,14 @@ https://github.com/paulinenanzala19/Akan_Names.git
 
  
 ## Known Bugs
-* Not any that am aware as at the moment
+* Not any that am aware as at the moment but am open to suggestions and improvement.
+* live link
+  https://paulinenanzala19.github.io/Akan_Names/
 ## BDD
 Displays Form For Entering Date and Gender
  - INPUT: "User's Birthdate, year and month Entered"
  - INPUT: "User's Gender Entered"
- - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+ - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender and the day they were born"
 Displays an Error Message if Date Input and gender are Left Blank
  - INPUT: ""
  - OUTPUT: "Displays please enter your credentials Message"
