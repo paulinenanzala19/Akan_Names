@@ -5,14 +5,21 @@
 ## Setup/Installation Requirements
 * clone the repository
 https://github.com/paulinenanzala19/Akan_Names.git
-* create a file index.html, style.css and script.js
+* open your terminal and navigate to the folder of application. cd Akan_Names
+* Navigate to file index.html, style.css and script.js
 
  
 ## Known Bugs
 * Not any that am aware as at the moment
 ## BDD
-The website will require a user to fill out information about their date of birth, month and the year they were born. The application uses a calender to select. One will be required to choose their gender and then click on the submit button in order to generate his/her Akan name. The application matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
-
+Displays Form For Entering Date and Gender
+ - INPUT: "User's Birthdate, year and month Entered"
+ - INPUT: "User's Gender Entered"
+ - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+Displays an Error Message if Date Input and gender are Left Blank
+ - INPUT: ""
+ - OUTPUT: "Displays please enter your credentials Message"
+Clears Form and Reset the Message on refreshing the page
 
 ## Technologies Used
 - HTML : used it extensively to document the code
